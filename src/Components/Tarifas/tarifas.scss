@@ -1,0 +1,22 @@
+@import '../../assets/global.scss';
+.tarifas {
+    height: 102px;
+    width:95%;
+    background-color:$secundary-color;
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height:50px;
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color:$primary-color;
+    .tarifas .cont-l{
+        margin-left: 24px;
+    }
+    .tarifas .cont-r{
+        text-align: right;
+        margin-right: 24px;
+    }
+}

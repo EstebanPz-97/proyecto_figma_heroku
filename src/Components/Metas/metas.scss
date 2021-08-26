@@ -1,0 +1,76 @@
+@import '../../assets/global.scss';
+.container-title-main{
+    margin:50px 24px; 
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    .title-main{
+        color:$primary-color;
+        font-weight: 600;
+        font-size: 28px;
+        margin-left: 24px;
+    }
+    
+}
+.metas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 24px;
+    height: 200px;
+    .target-metas{
+        border-radius: 15px;
+        height: 195px;
+        padding: 20px;
+        background-color:$secundary-color;
+        margin-right: 8px;
+    }
+    .title-target-main{
+        margin-left: 0px;
+        margin-top: 5px;
+        height: 40px;
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 14px;
+        color:$primary-color;
+    }
+    .ahorros{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+    }
+    .ahorros .graphic_20{
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+    }
+    
+    .ahorros .graphic_0{
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+    }
+    .ahorros .valor-ahorrado{
+        grid-column: 2;
+        grid-row: 1;
+        width: 63px;
+        height: 16px;
+        font-family: $font-family;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.03em;
+        color:$blue-color;
+        margin-top: 15px;
+    }
+    .ahorros .valor{
+        grid-column: 2;
+        grid-row: 1;
+        width: 63px;
+        height: 16px;
+        font-family: $font-family;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.03em;
+        color:$primary-color;
+        margin-top: 30px;
+    }
+}

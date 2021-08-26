@@ -1,0 +1,16 @@
+@import '../../assets/global.scss';
+.cabezera{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    max-width: 90%;
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $font-family;
+    height: 100px;
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}
