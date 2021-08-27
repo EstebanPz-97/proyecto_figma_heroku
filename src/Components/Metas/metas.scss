@@ -7,10 +7,15 @@
     .title-main{
         color:$primary-color;
         font-weight: 600;
-        font-size: 28px;
+        font-size: 2.8vw;
         margin-left: 24px;
     }
     
+    .plus{
+        width: 4.0vw;
+        height: 4.0vw;
+        
+    }
 }
 .metas{
     display: grid;
@@ -30,7 +35,7 @@
         height: 40px;
         font-family: $font-family;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 2.4vw;
         color:$primary-color;
     }
     .ahorros{
@@ -39,14 +44,14 @@
         margin-top: 30px;
     }
     .ahorros .graphic_20{
-        width: 50px;
-        height: 50px;
+        width: 8.0vw;
+        height: 8.0vw;
         margin: 15px;
     }
     
     .ahorros .graphic_0{
-        width: 50px;
-        height: 50px;
+        width: 8.0vw;
+        height: 8,0vw;
         margin: 15px;
     }
     .ahorros .valor-ahorrado{
@@ -55,7 +60,7 @@
         width: 63px;
         height: 16px;
         font-family: $font-family;
-        font-size: 12px;
+        font-size: 2.2vw;
         line-height: 16px;
         letter-spacing: -0.03em;
         color:$blue-color;
@@ -67,8 +72,8 @@
         width: 63px;
         height: 16px;
         font-family: $font-family;
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 2.2vw;
+        line-height: 5.4vw;
         letter-spacing: -0.03em;
         color:$primary-color;
         margin-top: 30px;
