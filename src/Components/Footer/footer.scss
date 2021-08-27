@@ -2,15 +2,15 @@
 footer{
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
+    font-size: 2vw;
+    line-height: 2.4vw;
     position: fixed;
-    width: 94%;
-    height: 60px;
-    margin-left: 24px;
-    bottom: 50px;
+    width: 94vw;
+    height: 6vw;
+    margin-left: 2.4vw;
+    bottom: 5vw;
     border-radius: 15px;
-    background-color: white;
+    background-color:$secundary-color;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     color:$primary-color;

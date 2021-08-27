@@ -1,6 +1,8 @@
 import './App.css';
+import { Ahorro } from './Components/Ahorro';
 import { Cabezera } from './Components/Cabezera';
 import { Card } from './Components/Card';
+import { Consejos } from './Components/Consejos';
 import { Footer } from './Components/Footer';
 import { Metas } from './Components/Metas';
 import { Portafolio } from './Components/Portafolio';
@@ -13,8 +15,10 @@ function App() {
       <Card />
       <Tarifas />
       <Metas />
-      {/* <Footer /> */}
       <Portafolio />
+      <Ahorro />
+      <Footer />
+      <Consejos />
 
  
     </div>

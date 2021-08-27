@@ -1,6 +1,8 @@
 import './portafolio.scss'
 import porcent from './holding_donut.svg';
 import logo from './logo.svg';
+import arrowr from './Frame 74.svg';
+import arrowl from './Frame 73.svg';
 
 
 export const Portafolio = () => {
@@ -24,7 +26,9 @@ export const Portafolio = () => {
                     <div className="text-company-renta">Renta fija <br />   Depósito a la fija</div>
                 </section>
                 <section className="frame-company">
-                    <span className="frame-left"></span><span className="frame-rigth"></span>
+                    <img src={arrowl} alt="arrow left" className="frame-rigth" />
+                    <img src={arrowr} alt="arrow rigth" className="frame-rigth" />
+
                 </section>
             </div>
             <div className="footer-portafolio">Tu  dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.</div>

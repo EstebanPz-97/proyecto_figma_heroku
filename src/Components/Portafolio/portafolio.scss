@@ -7,9 +7,8 @@
     justify-content: space-between;
     width: 94%;
     .title-portafolio{
-        width:260px;
         font-family: $font-family;
-        font-size: 18px;
+        font-size: 2.8vw;
         font-weight: 600;
         color: $primary-color;
         height: 25px;
@@ -20,8 +19,8 @@
         border-radius: 15px;
         border: 0.5px solid #41CF69;
         font-family: $font-family;
-        font-size: 10px;
-        padding: 3px 10px;
+        font-size: 1.3vw;
+        padding: 0.3vw 2.0vw;
         color: #41CF69;
         cursor: pointer;
         text-align: center;
@@ -38,7 +37,6 @@
     margin-left: 24px;
     width: 94%;
     background-color:$secundary-color;
-    height: 230px;
     padding: 10px;
     .image-portafolio{
         grid-area: image-portafolio;
@@ -52,34 +50,27 @@
         text-align: left;   
         .text-company{
             margin-left: 20px;
-            display: grid;
-            height: 105px;
             font-family: $font-family;
-            grid-auto-rows: 20px;
             .text-company-title{
-                height: 16px;
-                font-size: 12px;
+                font-size: 2.0vw;
                 color:$primary-color;
                 font-weight: 400;
                 letter-spacing: -0.03em;
             }
             .text-company-precio{
-                height: 16px;
-                font-size: 16px;
+                font-size: 2.6vw;
                 color:$primary-color;
                 font-weight: 600;   
                 letter-spacing: -0.03em;
             }
             .text-company-tipo{
-                height: 14px;
-                font-size: 14px;
+                font-size: 2.4vw;
                 color: #41CF69;
                 font-weight: 600;
                 letter-spacing: -0.03em;
             }
             .text-company-renta{
-                height: 28px;
-                font-size: 14px;
+                font-size: 2.4vw;
                 color:$primary-color;
                 font-weight: 600;   
                 letter-spacing: -0.03em;    
@@ -106,27 +97,22 @@
         }
         }
         .frame-company{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            justify-content: space-between;
             .frame-left{
-                width: 30px;
-                height: 30px;
-                background-repeat: no-repeat;
-                background-position: center;
+                width: 10.0vw;
+                height:10.0vw;
             }
             .frame-rigth{
-                width: 30px;
-                height: 30px;
-                background-repeat: no-repeat;
-                background-position: center;
-                margin-left: 50px;
+                width: 10.0vw;
+                height:10.0vw;
             }
         }
         .footer-portafolio{
             grid-area: footer-portafolio;
-            height: 30px;
             font-family: $font-family;
-            font-size: 20px;
+            margin-top: 60px;
+            font-size: 2.0vw;
             color:$primary-color;
             font-weight: 600;   
             letter-spacing: -0.03em;   
